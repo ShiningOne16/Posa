@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Figura posando (mano en la cintura) dentro de un visor de cámara -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Esquinas del visor -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFC857"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M32,40 L32,32 L40,32 M68,32 L76,32 L76,40 M76,68 L76,76 L68,76 M40,76 L32,76 L32,68" />
+    <!-- Cabeza -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M54,37 m-4.5,0 a4.5,4.5 0 1,0 9,0 a4.5,4.5 0 1,0 -9,0" />
+    <!-- Cuerpo y extremidades -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="4.5"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M54,44 L54,59 M54,59 L49,72 M54,59 L60,72 M54,46 L45,51 L50,57 M54,46 L62,40 L66,33" />
+</vector>
